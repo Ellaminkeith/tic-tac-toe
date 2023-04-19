@@ -1,0 +1,41 @@
+header {
+    font-size: 42px;
+    text-align: center;
+  }
+  
+  .cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    border-radius: 50px;
+    font-size: 55px;
+    cursor: pointer;
+    text-align: center;
+   }
+  
+  .cell:hover {
+    background-color: beige;
+    border: 2px solid yellow;
+  }
+  
+  #gameContainer {
+    font-family: "Verdana", cursive;
+    text-align: center;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  button {
+    width: 100px;
+    margin: 50px;
+    padding: 5px;
+    color: green;
+  }
+  
